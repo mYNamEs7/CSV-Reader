@@ -3,6 +3,6 @@
 
 CLI-утилита для формирования отчётов по CSV-файлам с экономическими данными.
 
-#### Пример запуска
+#### Запуск
 ```bash
-python main.py --files dataset1.py dataset2.py --report average-gdp
+python -m csv_reader.main --files dataset1.csv dataset2.csv --report average-gdp
